@@ -1,25 +1,31 @@
 
 header {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
   display: flex;
-  width: 100%;
-  height: 80px;
   align-items: center;
   position: fixed;
   z-index: 1;
+  width: 100%;
+  height: 80px;
   border-bottom: 1px solid black;
   background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+    border: 1px solid green;
 }
 
 header nav {
   padding-right: 40px;
+    border: 1px solid green;
 }
 
 header span {
   display: inline-block;
   padding: 25px 10px;
+}
+
+nav {
+  display: block;
 }
 
 nav span {
@@ -28,9 +34,35 @@ nav span {
 }
 
 .logo {
-  Color: MediumAquamarine;
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.main {
+  display: flex;
+      border: 1px solid green;
+}
+
+.left-c {
+      border: 1px solid green;
+}
+
+.middle-c {
+      border: 1px solid green;
+}
+
+.right-c {
+      border: 1px solid green;
 }
