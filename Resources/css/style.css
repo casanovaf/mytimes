@@ -45,6 +45,14 @@ div {
   border: 1px solid blue;
 }
 
+p {
+  display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -75,17 +83,17 @@ div {
   margin-right: 32px;
 }
 
-.large {
+.column.large {
   display: flex;
   width: 630px;
 }
 
-.medium {
+.column.medium {
   display: flex;
   width: 300px;
 }
 
-.small {
+.column.small {
   display: flex;
   width: 240px;
 }
