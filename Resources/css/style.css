@@ -64,9 +64,15 @@ div {
 
 .content {
   display: flex;
-  width: 1232px;
+  width: 100%;
   margin: 0 auto 78px auto;
   padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .large {
