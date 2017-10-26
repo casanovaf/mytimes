@@ -11,12 +11,10 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-    border: 1px solid green;
 }
 
 header nav {
   padding-right: 40px;
-    border: 1px solid green;
 }
 
 header span {
@@ -31,6 +29,20 @@ nav {
 nav span {
   display: inline-block;
   padding: 25px 10px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+footer nav {
+
+}
+
+div {
+  border: 1px solid blue;
 }
 
 .logo {
@@ -50,19 +62,24 @@ nav span {
   margin-right: 12px;
 }
 
-.main {
+.content {
   display: flex;
-      border: 1px solid green;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
-.left-c {
-      border: 1px solid green;
+.large {
+  display: flex;
+  width: 630px;
 }
 
-.middle-c {
-      border: 1px solid green;
+.medium {
+  display: flex;
+  width: 300px;
 }
 
-.right-c {
-      border: 1px solid green;
+.small {
+  display: flex;
+  width: 240px;
 }
